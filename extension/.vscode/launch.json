@@ -21,7 +21,7 @@
                 "--extensionDevelopmentPath=${workspaceFolder}"
             ],
             "outFiles": [
-                "${workspaceFolder}/out/**/*.js"
+                "${workspaceFolder}/dist/**/*.js"
             ],
             "preLaunchTask": "${defaultBuildTask}",
             "internalConsoleOptions": "openOnSessionStart"
@@ -39,7 +39,7 @@
             "outFiles": [
                 "${workspaceFolder}/out/test/**/*.js"
             ],
-            "preLaunchTask": "${defaultBuildTask}"
+            "preLaunchTask": "npm: test-watch"
         },
         {
             "name": "Tests any workspace",
@@ -52,7 +52,7 @@
             "outFiles": [
                 "${workspaceFolder}/out/test/**/*.js"
             ],
-            "preLaunchTask": "${defaultBuildTask}"
+            "preLaunchTask": "npm: test-watch"
         }
     ]
 }

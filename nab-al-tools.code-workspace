@@ -48,7 +48,8 @@
 	"extensions": {
 		"recommendations": [
 			"dbaeumer.vscode-eslint",
-			"davidanson.vscode-markdownlint"
+			"davidanson.vscode-markdownlint",
+			"eamodio.tsl-problem-matcher"
 		]
 	}
 }
